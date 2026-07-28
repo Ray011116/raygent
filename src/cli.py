@@ -19,7 +19,7 @@ from src.agent import ReActAgent
 
 # 配置日志级别：INFO 会显示每次迭代的工具调用，DEBUG 更详细
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%H:%M:%S",
 )
